@@ -22,6 +22,6 @@ def _make_efficientdet():
 def efficientdet_d0():
 
     model = _make_efficientdet()
-    model.load_state_dict(torch.load('~/YB/src/EfficientDet/logs/colonCT/efficientdet-d0_397_13500.pth'), strict=False)
+    model.load_state_dict(torch.load('/home/Cyberlogitec/YB/src/EfficientDet/logs/colonCT/efficientdet-d0_397_13500.pth'), strict=False)
 
     return model
